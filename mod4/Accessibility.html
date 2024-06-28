@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 2: Accessibility и формы</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <h2>Напишите свои имя и фамилию</h2>
+        <div>
+            <input type="text" name="name" placeholder="Гайсин Артур" required>
+        </div>
+        <div>
+            <p>
+            <fieldset>
+                <legend><strong>Выберите свою группу</strong></legend>
+                <div>
+                    <input type="radio" id="group A" name="class" value="group A">
+                    <label for="group A">Группа A</label>
+                </div>
+                <div>
+                    <input type="radio" id="group B" name="class" value="group B">
+                    <label for="group B">Группа B</label>
+                </div>
+                <div>
+                    <input type="radio" id="group C" name="class" value="group C">
+                    <label for="group C">Группа C</label>
+                </div>
+            </fieldset>
+            </p>
+        </div>
+        <h3>Что вы видите на этой картинке? Опишите свои чувства.</h3>
+        <div>
+            <img src="https://ornella.club/uploads/posts/2023-05/1684191863_ornella-club-p-volk-v-prizhke-instagram-38.jpg"
+                alt="Страшный зверь" width="700" height="500" style="border-radius: 5%;">
+            <p><input type="text" name="name" placeholder="На картинке я вижу ... ." required></p>
+        </div>
+        <div>
+            <button type="submit"
+                style="font-size: large; border-radius: 10%; background-color: cadetblue;">Отправить</button>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
