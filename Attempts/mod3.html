@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+</head>
+
+<body>
+    <h2>Метизы</h2>
+    <table border="1">
+        <caption>Сводная таблица цен</caption>
+        <thead style="background-color: goldenrod;">
+            <tr>
+                <th>Название</th>
+                <th>Цена</th>
+                <th>Колличество</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: silver;">
+            <tr>
+                <td>1. Винт потай 2.5х10</td>
+                <td>1 рубль</td>
+                <td>1000 шт.</td>
+            </tr>
+            <tr>
+                <td>2. Винт круг. плюс 2.5х12</td>
+                <td>1 рубль 15 копеек</td>
+                <td>1000 шт.</td>
+            </tr>
+            <tr>
+                <td>3. Винт круг. минус 4х16</td>
+                <td>2 рубля 5 копеек</td>
+                <td>1000 шт.</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <h3>Для заказа заполните форму:</h3>
+        <form action="submit" method="post">
+            <div>
+                <p>
+                    <label for="username">Фамилия</label>
+                    <input type="text" id="username" name="username" required>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="username">Имя</label>
+                    <input type="text" id="username" name="username" required>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="username">Отчество</label>
+                    <input type="text" id="username" name="username" required>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+            </div>
+            <div>
+                <p>Отметить галочкой интерисующие позиции:</p>
+                <div>
+                    <p><input type="checkbox" checked> 1. Винт потай 2.5х10</p>
+                    <p><input type="checkbox"> 2. Винт круг. плюс 2.5х12</p>
+                    <p><input type="checkbox"> 3. Винт круг. минус 4х16</p>
+                </div>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Выберите способ доставки:</legend>
+                    <div>
+                        <input type="radio" id="Почта росии" name="Доставка" value="Почта россии" checked>
+                        <label for="Почта россии">Почта россии</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="CDEK" name="Доставка" value="CDEK">
+                        <label for="CDEK">CDEK</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Курьер" name="Доставка" value="Курьер">
+                        <label for="Курьер">Курьер</label>
+                    </div>
+            </div>
+            </fieldset>
+            <div>
+                <p><input type="submit" style="font-size: larger;" value="Отправить"></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
