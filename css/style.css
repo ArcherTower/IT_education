@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(#725f45, #6973a1);
+}
+
+p:not(.bottom) {
+    background-color: grey;
+    color: rgb(255, 250, 250);
+    font-style: italic;
+    border: 1px solid grey;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.bottom {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+div:not(.main, .header, .footer ) {
+    font-weight: 700;
+    color: orange;
+    margin-bottom: 45px;
+}
+
+h3 {
+    color: silver;
+    border: 3px solid silver;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px 5px 5px 5px; 
+}
+
+.main, .header, .footer {
+    margin: 0 30% 0 30%;
+}
+
+h1, h2 { 
+    color: whitesmoke;
+    text-align: center;
+}
+
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 10px;
+}
