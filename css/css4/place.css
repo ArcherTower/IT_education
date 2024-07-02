@@ -1,0 +1,39 @@
+.topl {
+    position:absolute;
+   top:20px;
+    left:20px;
+    border: 4px inset red;
+    padding: 10px 10px 10px 10px;
+    background-color: brown;
+    color: white;
+}
+
+.topr {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 4px dotted blue;
+    padding: 10px 10px 10px 10px;
+    background-color: aqua;
+    color: black;
+}
+
+.botoml {
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    border: 4px groove green;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    color: brown;
+}
+
+.botomr {
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    border: 4px ridge purple;
+    padding: 10px 10px 10px 10px;
+    background-color: blanchedalmond;
+    color: palevioletred;
+}

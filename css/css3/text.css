@@ -1,0 +1,32 @@
+h1 {
+    font-family: "Ga Maamli", sans-serif;
+    text-align: center;
+}
+
+h3 {
+    text-align: center; 
+}
+
+p.one { 
+    font-family: "Bodoni Moda SC", serif;
+}
+
+p.two {
+    line-height: 25px;
+
+}
+
+p.three {
+    text-decoration: underline;
+    letter-spacing: 6px;
+}
+
+p.four {
+   font-size: large;
+   font-weight: 700;
+}
+
+h3 #a, #b, #c, #d  {
+    font-style: italic;
+}
+
